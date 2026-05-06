@@ -1,0 +1,4 @@
+# Order confirmation email gRPC service.
+# Post-purchase customer notifications sit with the fulfillment team
+# alongside shipping/tracking, since both are post-checkout customer comms.
+*   @wallmart-poc/fulfillment

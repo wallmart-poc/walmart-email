@@ -1,0 +1,13 @@
+{
+  "identifier": "walmart-email",
+  "title": "Email Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "medium",
+    "slack_channel": "#fulfillment"
+  },
+  "relations": {
+    "depends_on": []
+  }
+}
