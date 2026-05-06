@@ -1,0 +1,17 @@
+{
+  "identifier": "walmart-email",
+  "title": "Email Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "medium",
+    "slack_channel": "#fulfillment",
+    "type": "grpc",
+    "tier": "backend",
+    "language": "Python",
+    "region": ["us-east-1"]
+  },
+  "relations": {
+    "depends_on": []
+  }
+}
